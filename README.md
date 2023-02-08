@@ -1,1 +1,1 @@
-#restAPI-1
+Projeto de API REST para aprendizado
