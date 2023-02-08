@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/icl00ud/alura/restAPI-1/restAPI-1.csproj": {}
+    "/home/icl00ud/alura/restAPI-1/restAPI-1/restAPI-1.csproj": {}
   },
   "projects": {
-    "/home/icl00ud/alura/restAPI-1/restAPI-1.csproj": {
+    "/home/icl00ud/alura/restAPI-1/restAPI-1/restAPI-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/icl00ud/alura/restAPI-1/restAPI-1.csproj",
+        "projectUniqueName": "/home/icl00ud/alura/restAPI-1/restAPI-1/restAPI-1.csproj",
         "projectName": "restAPI-1",
-        "projectPath": "/home/icl00ud/alura/restAPI-1/restAPI-1.csproj",
+        "projectPath": "/home/icl00ud/alura/restAPI-1/restAPI-1/restAPI-1.csproj",
         "packagesPath": "/home/icl00ud/.nuget/packages/",
-        "outputPath": "/home/icl00ud/alura/restAPI-1/obj/",
+        "outputPath": "/home/icl00ud/alura/restAPI-1/restAPI-1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/icl00ud/.nuget/NuGet/NuGet.Config"

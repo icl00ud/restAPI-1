@@ -1,3 +1,4 @@
+using FilmesApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FilmesApi.COntrollers;
@@ -6,10 +7,14 @@ namespace FilmesApi.COntrollers;
 [Route("[controller]")]
 public class FilmeController : ControllerBase
 {
-    private static List<Filme> filmes = new List<Filme>;
+    private static List<Filme> filmes = new List<Filme>();
 
-    public void AddFilme(Filme filme)
+    [HttpPost]
+    public void AddFilme([FromBody] Filme filme)
     {
-        filmes.add(filme);
+        filmes.Add(filme);
+        Console.WriteLine(filme.titulo);
+        Console.WriteLine(filme.genero);
+        Console.WriteLine(filme.duracao);
     }
 }
