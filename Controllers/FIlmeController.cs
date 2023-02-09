@@ -8,13 +8,18 @@ namespace FilmesApi.COntrollers;
 public class FilmeController : ControllerBase
 {
     private static List<Filme> filmes = new List<Filme>();
+    private static int id = 0;
 
     [HttpPost]
     public void AddFilme([FromBody] Filme filme)
     {
+        filme.id = id++;
         filmes.Add(filme);
-        Console.WriteLine(filme.titulo);
-        Console.WriteLine(filme.genero);
-        Console.WriteLine(filme.duracao);
+    }
+
+    [HttpGet]
+    public IEnumerable<Filme> GetFilmes()
+    {
+        return filmes;
     }
 }
