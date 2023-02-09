@@ -1,17 +1,17 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace FilmesApi.Models;
+namespace MoviesApi.Models;
 
-public class Filme
+public class Movie
 {
     public int id {get;set;}
     [Required(ErrorMessage = "O título do filme é obrigatório")]
-    public string titulo {get;set;}
+    public string title {get;set;}
     [Required(ErrorMessage = "O gênero do filme é obrigatório")]
     [MaxLength(15, ErrorMessage = "Nome muito grande. Máx de caracteres: 15.")]
-    public string genero {get;set;}
+    public string gender {get;set;}
     [Required]
     [Range(0, 500, ErrorMessage = "Duração deve ser ter uma duração válida.")]
-    public int duracao {get;set;}
+    public int duration {get;set;}
     
 }
