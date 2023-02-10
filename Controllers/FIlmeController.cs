@@ -41,5 +41,14 @@ public class MovieController : ControllerBase
         var movie = _context.Movies.FirstOrDefault(filme => filme.id == id);
         if(movie == null) return NotFound();
         return Ok(movie);
-    } 
+    }
+
+    [HttpPut("{id}")]
+    public IActionResult UpdateMovie(int id, [FromBody] UpdateMovieDTO movieDTO)
+    {
+        var movie = _context.Movies.FirstOrDefault(movie => movie.id == id);
+        if(movie == null) return NotFound();
+        _mapper.Map(movieDTO, movie);
+        _context.SaveChanges();
+    }
 }
