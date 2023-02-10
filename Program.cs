@@ -8,6 +8,8 @@ var connectionString = builder.Configuration.GetConnectionString("MovieContext")
 builder.Services.AddDbContext<MovieContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 // Add services to the container.
 
 builder.Services.AddControllers();
