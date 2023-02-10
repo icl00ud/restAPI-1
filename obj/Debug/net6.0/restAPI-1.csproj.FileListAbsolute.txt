@@ -52,3 +52,12 @@
 /home/icl00ud/alura/restAPI-1/restAPI-1/obj/Debug/net6.0/ref/restAPI-1.dll
 /home/icl00ud/alura/restAPI-1/restAPI-1/obj/Debug/net6.0/restAPI-1.pdb
 /home/icl00ud/alura/restAPI-1/restAPI-1/obj/Debug/net6.0/restAPI-1.genruntimeconfig.cache
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Humanizer.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/MySqlConnector.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
