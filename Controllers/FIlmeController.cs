@@ -55,7 +55,7 @@ public class MovieController : ControllerBase
         return NoContent();
     }
 
-    [HttpPatch]
+    [HttpPatch("{id}")]
     public IActionResult UpdateMovie(int id, JsonPatchDocument<UpdateMovieDTO> patch)
     {
         var movie = _context.Movies.FirstOrDefault(movie => movie.id == id);
