@@ -74,7 +74,7 @@ public class MovieController : ControllerBase
         return NoContent();
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public IActionResult DeleteMovie(int id)
     {
         var movie = _context.Movies.FirstOrDefault(movie => movie.id == id);
