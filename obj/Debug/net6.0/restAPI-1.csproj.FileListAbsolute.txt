@@ -67,3 +67,5 @@
 /home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Castle.Core.dll
+/home/icl00ud/alura/restAPI-1/restAPI-1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Proxies.dll
