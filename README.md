@@ -1,6 +1,6 @@
 <h1 align="center">Hi!</h1>
 <h2 align="center">
-> :construction: Project in progress :construction:
+:construction: Project in progress :construction:
 </h2>
 
 
