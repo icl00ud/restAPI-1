@@ -7,12 +7,24 @@
 
 # Título do Projeto
 
-Este projeto é para explorar as REST APIs e compreender como elas funcionam. Aprendi os princípios e técnicas que regem as chamadas HTTP. Aprendi como elas possibilitam a comunicação entre sistemas e aplicações web e como são utilizadas para acessar recursos e serviços de maneira simples e eficiente. Este projeto me deu uma base sólida para continuar desenvolvendo minhas habilidades em programação e tecnologia da web
+Este projeto tem como objetivo explorar as REST APIs e compreender como elas funcionam, além de apresentar os aprendizados adquiridos durante o processo.
 
 
 ## Documentação da API
 
-#### Adiciona um filme ao banco
+### 1. Movie
+
+#### Estrutura
+
+<div align="center">
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `title`      | `string` | **Obrigatório**. O título do filme|
+| `gender`      | `string` | **Obrigatório**. O gênero do filme |
+| `duration`      | `int` | **Obrigatório**. A duração do filme |
+</div>
+
+#### Adiciona um filme
 
 ```http
   POST /movie
@@ -25,12 +37,6 @@ Este projeto é para explorar as REST APIs e compreender como elas funcionam. Ap
     "duration": 169
   }
 ```
-
-| Parâmetro   | Tipo       | Descrição                                   |
-| :---------- | :--------- | :------------------------------------------ |
-| `title`      | `string` | **Obrigatório**. O título do filme|
-| `gender`      | `string` | **Obrigatório**. O gênero do filme |
-| `duration`      | `int` | **Obrigatório**. A duração do filme |
 
 #### Retorna todos os itens
 
@@ -54,14 +60,6 @@ Este projeto é para explorar as REST APIs e compreender como elas funcionam. Ap
 
 ```http
   PUT /movie/id
-
-  Exemplo
-
-  {
-  "title": "string",
-  "gender": "string",
-  "duration": 500
-  }
 ```
 
 #### Deleta um item
@@ -70,14 +68,121 @@ Este projeto é para explorar as REST APIs e compreender como elas funcionam. Ap
   DELETE /movie/id
 ```
 
+### 2. Cine
+
+#### Estrutura
+
+<div align="center">
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `name`      | `string` | **Obrigatório**. O nome do cinema|
+| `addressId`      | `int` | **Obrigatório**. O id do endereço (chave relacionada com address) |
+</div>
+
+#### Adiciona um cinema
+
+```
+  POST /cine
+
+  Exemplo
+
+  {
+    "name": "CinePlex",
+    "addressId": 1
+  }
+```
+
+#### Retorna todos os cinemas
+
+```
+  GET /cine
+```
+
+
+#### Retorna um cinema específico
+
+```
+  GET /cine/{id}
+```
+
+
+#### Atualiza as informações de um cinema específico
+
+```
+  PUT /cine/{id}
+```
+
+
+#### Deleta um cinema específico
+
+```
+  DELETE /cine/{id}
+```
+
+### 3. Address
+
+#### Estrutura
+
+<div align="center">
+| Parâmetro   | Tipo       | Descrição                                   |
+| :---------- | :--------- | :------------------------------------------ |
+| `street`      | `string` | **Obrigatório**. Um endereço|
+| `number`      | `int`    | **Obrigatório**. O número|
+</div>
+
+#### Adiciona um endereço
+
+```
+  POST /address
+
+  Exemplo
+
+  {
+    "name": "CinePlex",
+    "addressId": 1
+  }
+```
+
+#### Retorna todos os endereço
+
+```
+  GET /address
+```
+
+
+#### Retorna um endereço específico
+
+```
+  GET /address/{id}
+```
+
+
+#### Atualiza as informações de um endereço específico
+
+```
+  PUT /address/{id}
+```
+
+
+#### Deleta um endereço específico
+
+```
+  DELETE /address/{id}
+```
+
 ## Tecnologias Utilizadas
 - .NET
 - MySQL
-- Postman
+- Insomnia
+- Ubuntu
 
 .NET foi utilizado como a plataforma de desenvolvimento, permitindo a criação de uma API REST completa e funcional. Já o MySQL foi utilizado como banco de dados, armazenando as informações da aplicação de maneira eficiente e segura. Por fim, o Postman foi utilizado como ferramenta de teste, permitindo testar as chamadas HTTP da API de maneira simples e rápida.
 
 ## Aprendizados
 
-Durante o meu projeto de aprendizagem sobre REST APIs, descobri que elas são um padrão de projeto de arquitetura da web que permite a comunicação entre sistemas e aplicações. Aprendi sobre as chamadas HTTP, como o método GET, POST, PUT, PATCH e DELETE. Além disso, também aprendi sobre a importância de utilizar URLs claras e significativas e o formato de resposta em JSON ou XML. Tudo isso me permitiu entender a potência das REST APIs e como elas são amplamente utilizadas em aplicações web modernas
+Durante meu projeto de aprendizagem sobre REST APIs, aprendi que elas são um padrão de projeto de arquitetura da web que permite a comunicação entre sistemas e aplicações, utilizando o protocolo HTTP. Aprendi sobre os principais métodos HTTP, URLs claras e significativas e o formato de resposta em JSON ou XML.
+
+Também aprendi sobre a importância de utilizar DTOs para transferir dados de forma segura e eficiente entre diferentes camadas da aplicação, a técnica de Lazy Loading para melhorar o desempenho e a eficiência da aplicação, e sobre os relacionamentos entre entidades para o design e organização do banco de dados.
+
+Essas habilidades me permitiram entender a potência das REST APIs e sua ampla utilização em aplicações web modernas. Foi uma experiência valiosa para o meu desenvolvimento como desenvolvedor de software.
 
