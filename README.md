@@ -26,7 +26,7 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
 
 #### Adiciona um filme
 
-```http
+```
   POST /movie
 
   Exemplo
@@ -40,31 +40,31 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
 
 #### Retorna todos os itens
 
-```http
+```
   GET /movie
 ```
 
 #### Retorna um item específico
 
-```http
+```
   GET /movie/id
 ```
 
 #### Altera parcialmente um item
 
-```http
+```
   PATCH /movie/id
 ```
 
 #### Altera o objeto inteiro
 
-```http
+```
   PUT /movie/id
 ```
 
 #### Deleta um item
 
-```http
+```
   DELETE /movie/id
 ```
 
