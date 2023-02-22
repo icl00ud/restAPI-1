@@ -16,13 +16,13 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
 
 #### Estrutura
 
-<div align="center">
+
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `title`      | `string` | **Obrigatório**. O título do filme|
 | `gender`      | `string` | **Obrigatório**. O gênero do filme |
 | `duration`      | `int` | **Obrigatório**. A duração do filme |
-</div>
+
 
 #### Adiciona um filme
 
@@ -72,12 +72,12 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
 
 #### Estrutura
 
-<div align="center">
+
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `name`      | `string` | **Obrigatório**. O nome do cinema|
 | `addressId`      | `int` | **Obrigatório**. O id do endereço (chave relacionada com address) |
-</div>
+
 
 #### Adiciona um cinema
 
@@ -123,12 +123,12 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
 
 #### Estrutura
 
-<div align="center">
+
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
 | `street`      | `string` | **Obrigatório**. Um endereço|
 | `number`      | `int`    | **Obrigatório**. O número|
-</div>
+
 
 #### Adiciona um endereço
 
