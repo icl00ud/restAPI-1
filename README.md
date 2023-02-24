@@ -38,31 +38,31 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
   }
 ```
 
-#### Retorna todos os itens
+#### Retorna todos os filmes
 
 ```
   GET /movie
 ```
 
-#### Retorna um item específico
+#### Retorna um filme específico
 
 ```
   GET /movie/id
 ```
 
-#### Altera parcialmente um item
+#### Altera parcialmente um filme
 
 ```
   PATCH /movie/id
 ```
 
-#### Altera o objeto inteiro
+#### Altera o filme inteiro
 
 ```
   PUT /movie/id
 ```
 
-#### Deleta um item
+#### Deleta um filme
 
 ```
   DELETE /movie/id
@@ -176,7 +176,7 @@ Este projeto tem como objetivo explorar as REST APIs e compreender como elas fun
 - Insomnia
 - Ubuntu
 
-.NET foi utilizado como a plataforma de desenvolvimento, permitindo a criação de uma API REST completa e funcional. Já o MySQL foi utilizado como banco de dados, armazenando as informações da aplicação de maneira eficiente e segura. Por fim, o Postman foi utilizado como ferramenta de teste, permitindo testar as chamadas HTTP da API de maneira simples e rápida.
+.NET foi utilizado como a plataforma de desenvolvimento, permitindo a criação de uma API REST completa e funcional. Já o MySQL foi utilizado como banco de dados, armazenando as informações da aplicação de maneira eficiente e segura. Por fim, o Insomnia foi utilizado como ferramenta de teste, permitindo testar as chamadas HTTP da API de maneira simples e rápida.
 
 ## Aprendizados
 
