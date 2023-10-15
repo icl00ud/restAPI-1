@@ -1,7 +1,4 @@
 <h1 align="center">Olá!</h1>
-<h2 align="center">
-:construction: Sou um projeto de aprendizado em desenvolvimento :construction:
-</h2>
 <h3 align="center">21/02/2023</h3>
 
 
